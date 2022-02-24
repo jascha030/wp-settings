@@ -1,10 +1,17 @@
 {
   "name": "jascha030/wp-settings",
+  "description": "Library using modern PHP and OOP, to simplify creation of WordPress admin settings pages.",
   "authors": [
     {
       "name": "Jascha030",
       "email": "contact@jaschavanaalst.nl"
     }
+  ],
+  "keywords": [
+    "WordPress",
+    "wp-settings",
+    "oop",
+    "plugin"
   ],
   "minimum-stability": "stable",
   "autoload": {
@@ -25,5 +32,9 @@
     "phpunit/phpunit": "^9.5",
     "roave/security-advisories": "dev-latest",
     "friendsofphp/php-cs-fixer": "^3.6"
+  },
+  "scripts": {
+    "format": "php-cs-fixer fix --config=.php-cs-fixer.dist.php",
+    "phpunit": "phpunit --config phpunit.xml"
   }
 }
