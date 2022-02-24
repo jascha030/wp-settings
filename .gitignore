@@ -1,0 +1,13 @@
+# PhpStorm
+.idea
+
+# VSCode
+.vscode
+
+# Composer
+vendor
+**.cache
+
+# macOS
+.DS_Store
+
